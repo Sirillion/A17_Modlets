@@ -1,4 +1,4 @@
-#SMXstamina A17b199e
+# SMXstamina A17b199e
 
 SMXstamina is a modlet for 7 Days to Die A17.
 
