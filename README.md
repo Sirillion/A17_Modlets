@@ -1,8 +1,7 @@
-#
-![image](https://i.imgur.com/6LPnYmW.png)
+#SMXstamina A17b199e
 
-SMX - Modlet Central for Alpha 17 is a collection of some of the modlets I produce when learning the new xpath modding system for 7 Days to Die.
+SMXstamina is a modlet for 7 Days to Die A17.
 
-I hope you will enjoy them as much as I did making them.
+This modlet will cut the stamina use when using tools and melee weapons by half. It was made for those out there that find themselves constantly running out of stamina and feel that the current stamina balance in the game keeps them from having fun.
 
--S
+This modlet will affect the game balance and the gameplay experience will as such not be as the developer intended.
