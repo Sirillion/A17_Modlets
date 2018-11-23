@@ -1,0 +1,55 @@
+<configs>
+
+<!--	// MODLET:			SMXmSta
+
+		// EAC:				Friendly
+
+		// VERSION:			A17b199eR1
+
+		// BUILD:			A17b199
+
+		// DISCLAIMER:		Please be advised that this modlet is intended for use with the build mentioned above. That said it may very well be that
+							it can be used with other builds with little to no risk of failure. It all depends on the standard files being updated or not
+							and you can verify this by looking at the date of the standard files when an update have occured.
+
+		// MOD DESCRIPTION:	The purpose of this modlet is to modify the use of stamina when wielding tools or weapons and when jumping and swimming.
+
+		// DEPENDENCIES: 	None.
+
+		// TERMS OF USE:	You are allowed to use this modlet for your own personal use and/or distribute said modlet bundled with something of your own
+							creation as long as the files remain unaltered and you do not claim credit for its creation.
+							You are welcome to, but not required to, inform the author of this modlet should you wish to bundle and re-distribute said
+							modlet as described above.
+
+		// CREDITS:			Sirillion (author)
+-->
+
+
+<!--	// SMX // Item StaminaLoss Base Effects - Reduced by 50% per default -->
+
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='8']/@value">4</set>			<!-- Player Hands, Admin Wrench, Hammer of God (Admin) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12']/@value">6</set>			<!-- Bone Shiv, Hunting Knife, Flash Light, Claw Hammer -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='14']/@value">7</set>			<!-- Stone Axe, Torch, Machete, Pick Axe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='15']/@value">7.5</set>		<!-- Club (Wood), Club (Iron), Wrench -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='16']/@value">8</set>			<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='18']/@value">9</set>			<!-- Fire Axe (Iron), Fire Axe (Steel), Hoe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='19']/@value">9.5</set>		<!-- Pick Axe (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='20']/@value">6</set>			<!-- Sledgehammer -->
+
+
+<!--	// SMX // Item StaminaLoss Power Attacks - Reduced by 50% per dafault -->
+
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='12']/@value">6</set>			<!-- Player Hands, Hammer of God (Admin) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='18']/@value">9</set>			<!-- Bone Shiv, Hunting Knife -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='21']/@value">10.5</set>		<!-- Machete, Pick Axe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='22']/@value">11</set>		<!-- Club (Wood) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='22.5']/@value">11.25</set>	<!-- Club (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='24']/@value">12</set>		<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='27']/@value">13.5</set>		<!-- Fire Axe (Iron), Fire Axe (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='28.5']/@value">14.25</set>	<!-- Pick Axe (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='30']/@value">15</set>		<!-- Sledgehammer -->
+
+
+<!--	// SMX // You can modify the values yourself by changing the numerical value just before </set> on each line above -->
+
+</configs>
