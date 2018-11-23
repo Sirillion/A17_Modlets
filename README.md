@@ -1,6 +1,6 @@
-# SMXstamina A17b199e
+# SMXmSta A17b199e
 
-> **SMXstamina** is a modlet for 7 Days to Die A17.
+> **SMXmSta** is a modlet for 7 Days to Die A17.
 
 SMXmSta is a StaminaLoss modifier that lets you change the values for StaminaLoss from using tools and weapons as well as physical exertion like jumping and swimming. You can make changes in the xml file by editing the values, the default setting for SMXmSta is 50% reduction.
 
