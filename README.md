@@ -8,4 +8,4 @@ It was made for those out there that find themselves constantly running out of s
 
 > Dependencies: None.
 
-> Compatibility: Should work 
+> Compatibility: Will work with all mods/modlets that doesn't modify the same content in items.xml and entityclasses.xml.
