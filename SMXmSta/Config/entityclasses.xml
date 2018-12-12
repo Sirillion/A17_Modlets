@@ -2,8 +2,9 @@
 
 <!--	// SMX // Character StaminaLoss Passive Effects - Reduced by 50% per default -->
 
-		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='jumping']/@value">10</set>			<!-- Jumping -->
-		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='swimming']/@value">20</set>		<!-- Swimming -->
+		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='jumping']/@value">10</set>
+		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='swimming']/@value">20</set>
+
 
 <!--	// SMX // You can modify the values yourself by changing the numerical value just before </set> on each line above -->
 
