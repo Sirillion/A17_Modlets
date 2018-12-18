@@ -1,4 +1,4 @@
-# SMXmSta A17b221eR1
+# SMXmSta A17b231eR1
 
 SMXmSta is a StaminaLoss modifier that lets you change the values for StaminaLoss from using tools and weapons as well as physical exertion like jumping and swimming. You can make changes in the xml file by editing the values, the default setting for SMXmSta is 50% reduction.
 
