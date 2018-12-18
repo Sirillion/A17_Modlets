@@ -4,9 +4,9 @@
 
 		// EAC:				Friendly
 
-		// VERSION:			A17b221eR1
+		// VERSION:			A17b231eR1
 
-		// BUILD:			A17b221e
+		// BUILD:			A17b231e
 
 		// DISCLAIMER:		Please be advised that this modlet is intended for use with the build mentioned above. That said it may very well be that
 							it can be used with other builds with little to no risk of failure. It all depends on the standard files being updated or not
@@ -31,33 +31,36 @@
 
 <!--	// SMX // Item StaminaLoss Base Effects - Reduced by 50% per default -->
 
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='8']/@value">4</set>			<!-- Player Hands, Admin Wrench, Hammer of God (Admin) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='10']/@value">5</set>			<!-- Hunting Knife -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='10.9']/@value">5.45</set>	<!-- Bone Shiv -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='11']/@value">5.5</set>		<!-- Hoe (Iron) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12']/@value">6</set>			<!-- Flash Light -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12.8']/@value">6.4</set>		<!-- Claw Hammer -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='14']/@value">7</set>			<!-- Torch, Machete -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='15']/@value">7.5</set>		<!-- Stone Axe, Club (Wood), Club (Iron) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='15.3']/@value">7.65</set>	<!-- Pick Axe (Iron) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='16']/@value">8</set>			<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='16.2']/@value">8.1</set>		<!-- Wrench -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='18']/@value">9</set>			<!-- Fire Axe (Iron), Fire Axe (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='19']/@value">9.5</set>		<!-- Pick Axe (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='25']/@value">12.5</set>		<!-- Sledgehammer -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='8']/@value">4</set>			<!-- Player Hands (Old), Admin Wrench, Hammer of God (Admin) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='9.3']/@value">4.65</set>		<!-- Player Hands -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12.0']/@value">6.0</set>		<!-- Stone Axe -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12.1']/@value">6.05</set>	<!-- Flash Light -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='12.7']/@value">6.35</set>	<!-- Claw Hammer -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='13.2']/@value">6.6</set>		<!-- Hunting Knife -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='14.4']/@value">7.2</set>		<!-- Bone Shiv, Candy Cane Shiv -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='16.2']/@value">8.1</set>		<!-- Club (Wood), Wrench, Pick Axe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='16.8']/@value">8.4</set>		<!-- Torch, Machete -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='17.1']/@value">8.55</set>	<!-- Club (Iron), Club (Candy Cane) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='17.8']/@value">8.9</set>		<!-- Wrench -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='19.7']/@value">9.85</set>	<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='20.1']/@value">10.05</set>	<!-- Hoe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='21']/@value">10.5</set>		<!-- Fire Axe (Iron), Fire Axe (Steel), Pick Axe (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='StaminaLoss'][@value='29']/@value">14.5</set>		<!-- Sledgehammer -->
 
 
 <!--	// SMX // Item StaminaLoss Power Attacks - Reduced by 50% per dafault -->
 
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='12']/@value">6</set>			<!-- Player Hands, Hammer of God (Admin) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='18']/@value">9</set>			<!-- Bone Shiv, Hunting Knife -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='21']/@value">10.5</set>		<!-- Machete, Pick Axe (Iron) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='22']/@value">11</set>		<!-- Club (Wood) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='22.5']/@value">11.25</set>	<!-- Club (Iron) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='48']/@value">24</set>		<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='54']/@value">27</set>		<!-- Fire Axe (Iron), Fire Axe (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='57']/@value">28.5</set>		<!-- Pick Axe (Steel) -->
-		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='75']/@value">37.5</set>		<!-- Sledgehammer -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='12']/@value">6</set>			<!-- Player Hands (Old), Hammer of God (Admin) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='14']/@value">7</set>			<!-- Player Hands -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='20']/@value">10</set>		<!-- Hunting Knife -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='22']/@value">11</set>		<!-- Bone Shiv -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='24']/@value">12</set>		<!-- Club (Wood) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='25']/@value">12.5</set>		<!-- Machete -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='26']/@value">13</set>		<!-- Club (Iron), Club (Candy Cane) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='32']/@value">16</set>		<!-- Pick Axe (Iron) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='39']/@value">19.5</set>		<!-- Shovel (Stone), Shovel (Iron), Shovel (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='42']/@value">21</set>		<!-- Fire Axe (Iron), Fire Axe (Steel), Pick Axe (Steel) -->
+		<set xpath="/items/item/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@value='58']/@value">29</set>		<!-- Sledgehammer -->
 
 
 <!--	// SMX // You can modify the values yourself by changing the numerical value just before </set> on each line above -->
